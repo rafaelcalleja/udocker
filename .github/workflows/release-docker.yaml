@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-22.04
     strategy:
       matrix:
-        BASE_IMAGE: [ubuntu:20.04, ubuntu:22.04, debian:bookworm, debian:bullseye ]
+        BASE_IMAGE: ["ubuntu:20.04", "ubuntu:22.04", "debian:bookworm", "debian:bullseye" ]
     steps:
       -
         name: Checkout
